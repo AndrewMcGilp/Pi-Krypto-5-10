@@ -1,0 +1,59 @@
+
+To read the secret message!
+
+You should be using a Raspberry Pi4 with buster 10.8
+
+ESC=Restart or Go back a screen.
+F1=Help
+F2=Footnote message
+F3=Mask 
+F10=Add new user
+F11=Edit user
+F12=Delet user
+Left/Right CTRL & ALT keys have functions! Press F1 for more info!!
+
+(1)SYSTEM-KEY|'codeKey' Then press Enter.
+   If all went well the besel's in the next screen will be black and not red!
+   if red make sure you are using the same Pi & os aka Pi4 & buster 10.8.
+   and that you are using the same fonts, image and the PIN/Passwords are correct.
+(2)USER_NAME_|'Cody' then Enter
+(3)GROUP_NAME|Just press Enter 
+(4)PASSWORD__|'cat' then Enter
+(5)Msg~|Just press Enter
+(6)PIN~|Just press Enter
+(5)Key~|'Max' then Enter
+(6)Path|Just press Enter
+   Extra:
+      Left/Right CTRL=Scroll Up/Down the folder list.
+(7)Name|Press Left/Right CTRL
+   you should see 'secretMessage^***********.txt[]'.
+   Then press Enter.
+   Extra:
+      Left/Right CTRL=Scroll Up/Down the file list.
+      Left ALT=Format/Auto-Pin/Time-Stamp.
+      Right ALT=Create an Automatic file name.
+(8)Just press Enter	
+   If all went well, you should be able to read the message.
+   Extra:
+      Leave empty to read a message and type in a message to write
+      a message.
+   
+READ_ME!
+
+#(1)SYSTEM|Create new System Key/password (Preset password is'codeKey')
+#(2)LOGON|Edit user names/public keys/passwords (Admin)
+#(2.1)Login USER_NAME=Admin, GROUP_NAME=Group0, PASSWORD=admin(Change Amdin password!)
+#(2.2)F10=Add new user, F11=Edit user, F12=Delet user
+#(3)The Left and Right CTRL and ALT have hotkey like functions.
+#(4)You can Copy/Paste your pictures [jpg/png] to the 'Imgages' folder to use as encryption key.
+#Note you must use the same Pi/Os/Krypto-Virsion/Image/Fonts to encode and decode!!
+#                        ie.Pi-4/Buster/Pygame KRYPTO-v5_08/Fonts and use the same
+#                        image(wallpaper image 'Clouds.jpg' or your own photo .jpg/.png)
+#                        and must use the same at both ends!
+#Left/Right CTRL & ALT keys have functions!
+#Preset users:  Preset passwords:   Preset public key:
+#       Admin             admin               userID0
+#         Max               dog               userID1
+#        Cody               cat               userID2
+#      Group0             jumbo              GroupID0
+
